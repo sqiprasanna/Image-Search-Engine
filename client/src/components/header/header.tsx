@@ -44,22 +44,6 @@ export const Header = ({ search, clear, displayClear }: HeaderProps) => {
                     <SearchBar enterPressed={search} />
                     { clearButton }
                     <Box sx={{ flexGrow: 1 }} />
-                    <IconButton
-                        aria-label="LinkedIn"
-                        href="https://www.linkedin.com/in/basava-sai-naga-viswa-chaitanya-665083172/"
-                        target="_blank"
-                        rel="noopener"
-                    >
-                        <LinkedInIcon />
-                    </IconButton>
-                    <IconButton
-                        aria-label="GitHub"
-                        href="https://github.com/chaitanya-basava/Image-Search-Engine"
-                        target="_blank"
-                        rel="noopener"
-                    >
-                        <GitHubIcon />
-                    </IconButton>
                 </Toolbar>
             </AppBar>
         </Box>
