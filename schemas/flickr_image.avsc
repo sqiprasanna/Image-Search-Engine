@@ -1,0 +1,39 @@
+{
+  "namespace": "com.basava",
+  "type": "record",
+  "name": "FlickrImage",
+  "fields": [
+    {
+      "name": "title",
+      "type": "string"
+    },
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "imgUrl",
+      "type": "string"
+    },
+    {
+      "name": "userId",
+      "type": "string"
+    },
+    {
+      "name": "userName",
+      "type": "string"
+    },
+    {
+      "name": "postedOn",
+      "type": "long"
+    },
+    {
+      "name": "tags",
+      "type": {
+        "type": "array",
+        "items": "string",
+        "default": []
+      }
+    }
+  ]
+}
